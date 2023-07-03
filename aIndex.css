@@ -1,0 +1,84 @@
+#textbox{
+  margin:auto;
+  background-color:rgb(227, 231, 243); 
+
+  color:white;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  outline: none;
+  height:1000px;
+  width:700px;
+  position: relative;
+  align: center;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+body{
+  color: #7ce4f233;
+  /*background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v326-kul-47-connection_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c07dd34670f2ea853539820ddafb7181");
+  background-repeat: no-repeat;
+  */
+  overflow-x: hidden;
+  text-align: center-align;
+}
+
+h3{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(69, 78, 105);
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(82, 85, 95, 0.911);
+}
+
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:12px;
+}
+
+
+.header {
+  position: relative;
+  height: 600px;
+}
+
+.header img {
+  position: relative;
+  top: -2px;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 0% 0% 30% 30%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.925),rgb(0, 0, 0)) , url(EauDp1hUcAAE-bK.jpg);
+}
+
+
+.header h1 {
+  position: relative;
+  color: white;
+  font-family: 'montserrat';
+  font-size: 90px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 700x;
+  letter-spacing: 5px;
+  bottom: 450px;
+}
+
+
+

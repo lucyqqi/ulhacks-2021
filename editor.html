@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Writers Guild</title>
+
+	<link href="universal.css" rel="stylesheet" type="text/css" />
+	<link href="editor.css" rel="stylesheet" type="text/css" />
+
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+   
+  <link rel="icon" type="image/png" href="favicon-32x32.png">
+
+</head>
+
+<nav>
+	<ul id="nav">
+		<li>
+			<a href="index.html">HOME</a>
+		</li>
+		<li>
+			<a href="editor.html">TEXT EDITOR</a>
+		</li>
+		<li>
+			<a href="summarizer.html">TEXT SUMMARIZER</a>
+		</li>
+		<li>
+			<a href="writing.html">WRITING TIPS</a>
+		</li>
+	</ul>
+</nav>
+
+
+<body>
+  
+	<h1>TEXT EDITOR</h1>
+
+
+  <h3 id="box">Font Size:</h3>
+  <input type="text" value="12" id="fontSize" onclick="enter()"/>
+  <button class="hover" id="textButton" onclick="infoToggle()">Text Information</button>
+
+  <div class="fullscreen hidden flexContainerCenter" id="changeHeight">
+    <h1>PAGE INFORMATION</h1>
+    <h2>Word Count: <span id="wordcount">0</span></h2>
+    <h2>Corrected Errors: <span id="mistakes">0</span></h2>
+    <h2 class="hover" id="errors" onclick="textInformation()">Click me to display corrected errors!</h2>
+    <button class="hover" id ="button1" onclick="infoToggle()">CLOSE POPUP</button>
+  </div>
+
+  
+	<div id="specialeffects"></div>
+	<textarea id="textbox"
+    onkeydown="autoheight('textbox')"
+    name="name" 
+    rows="50" 
+    spellcheck="true"
+    cols="100"
+    placeholder="Your text here"></textarea>
+    <div id="overlay"></div>
+  <script src="editor.js"></script>
+</body>
+
+
+    <footer>
+      <p>Writers Guild, Copyright &copy; 2021</p>
+    </footer>
+
+  
+</html>

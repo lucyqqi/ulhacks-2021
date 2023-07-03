@@ -1,0 +1,175 @@
+
+/* h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: rgb(173, 211, 255);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  outline: none;
+} */
+
+
+
+h1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(99, 111, 150);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+h2{
+  color: rgb(99, 111, 150);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+body{
+  color: #7ce4f233;
+  margin: 0px;
+  padding: 0px;
+    overflow-x: hidden;
+  text-align: center-align;
+}
+
+#tips {
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#textbox{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  background-color:rgb(160, 178, 241);
+  color:white;
+  width: 700px;
+  min-height:100px;
+  height:auto;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  position: relative;
+  overflow: hidden; 
+  font-family: montserrat; 
+}
+
+#box{
+  color:rgb(99, 111, 150);
+  display: inline;
+  outline: none;
+  font-size: 16px;
+  position: relative;
+  left:28.2%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#textButton{
+  position: relative;
+  left: 29%;
+  align-items: center;
+  justify-content: center;
+  padding: 3px px;
+  background-color: rgb(99, 111, 150);
+  font-size: 16px;
+  color: white;
+  margin: auto;
+  border: none;
+  font-family: 'montserrat';
+}
+
+
+#button1{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  background-color: rgb(99, 111, 150);
+  font-size: 16px;
+  color: white;
+  margin: auto;
+  border: none;
+  font-family: 'montserrat';
+}
+
+
+#fontSize{
+  width: 30px; 
+  /*Its not ignored*/
+  display: inline;
+  outline: none;
+  font-size: 12px;
+  position: relative;
+  left:28.5%;
+  font-family: montserrat;
+}
+
+
+.fullscreen{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-color: rgb(231, 234, 245);
+  z-index: 2;
+}
+
+
+.flexContainerCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden{
+  display: none;
+}
+
+#errors{
+  text-decoration: underline;
+}
+
+#specialeffects{
+  background-color:rgb(140, 178, 223);
+  position: absolute;
+  width:700px;
+}
+
+.specialeffects2{
+  background: rgb(229,177,209);
+background: radial-gradient(circle, rgba(229,177,209,0) 50%, rgba(217,181,218,1) 75%, rgba(148,187,233,1) 100%);
+  position: fixed;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+  opacity: 0;
+  animation: fade 4s linear forwards;
+  z-index: -10000;
+}
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+/*body{
+  color: #7ce4f233;
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v326-kul-47-connection_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c07dd34670f2ea853539820ddafb7181");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:200%;
+  overflow-x: hidden;
+}
+*/
+
+
